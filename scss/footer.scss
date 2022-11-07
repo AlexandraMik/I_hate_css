@@ -1,0 +1,116 @@
+.newsletter {
+    padding: 0;
+    z-index: 2;
+    &__objects{
+        margin: 80px 0 0;
+        padding: 65px 48px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #BF6F6F;
+        background-image: url(../images/waves2.svg);
+        background-size: 248px, 108px;
+        background-repeat: no-repeat;
+        background-position: 100% 0;
+        @media screen and (max-width: 992px) {
+            flex-direction: column;
+            text-align: center;
+            margin: 40px 0 0;
+            padding: 32.5px 24px;
+        }
+        &__text{
+            color: #fff;
+            text-align: left;
+            &__header{
+                font-weight: bold;
+                @media screen and (max-width: 475px) {
+                    font-size: 28px;
+                    line-height: 1.2;
+                }
+            &__text{
+                font-size:18px;
+                @media screen and (max-width: 475px) {
+                    font-size: 16px;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+        &__ant{
+            padding: 15px 0 8px;
+            &__input{
+                padding: 0 0 0 16px;
+                height: 48px;
+                width: 320px;
+                background-color: #933331;
+                border: 1px solid #d83734;
+            }
+            &__btn{
+                height: 48px;
+                color: #933331;
+                background-color: #fff;
+            }
+        }
+
+    }
+}
+.footer {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    &__container{
+        margin-top: 64px;
+    }
+    &__block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    &__coloumn{
+        text-align: left;
+        padding-left: 20px;
+        &__logo{
+            display: flex;
+            width: 32px;
+            clip-path: circle();
+        }
+        &__text{
+            margin-top: 14px;
+            max-width: 352px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px ;
+            color: #9BA9B4;        
+        }
+      &__links{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        margin-bottom: 48px;
+        &__list {
+            &__title {
+                padding-bottom: 4px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #D9E3EA;
+            }
+
+            &__elem {
+                padding-bottom: 4px;
+                font-weight: 400;
+                font-size: 14px;
+                color: #9BA9B4;
+            }
+        }
+      }
+    }
+}
+.social{
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+    border-spacing: 10px; 
+    &__item {
+        display: table-cell;
+    }
+}

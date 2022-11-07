@@ -1,0 +1,33 @@
+.section{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    margin: 70px 0px 50px 0px;
+    &__container{
+        position: relative;
+        z-index: 20;
+    }
+    &__title{
+        font-size: 52px;
+        letter-spacing: -0.5px;
+        line-height: 62px;
+        color: #d9e3ea;
+        font-weight: bold;
+        stroke: #0000; 
+    }
+    &__text{
+        font-size: 20px;
+        letter-spacing: -0.25px;
+        line-height: 30px;
+        color: #9BA9B4;
+        margin: 0px 16px 16px 0px;
+    }
+    &__btn1{
+        color: #C5D2DC;
+        background-color: #33363A;
+    }
+    &__btns{
+        margin: 30px 0px 50px 0px;
+    }
+}

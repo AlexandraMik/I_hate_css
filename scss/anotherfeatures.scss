@@ -1,0 +1,50 @@
+.anotherfeatures{
+    &__container{
+        position: relative;
+    }   
+    &__object{
+        display: flex;
+        gap: 150px;
+        margin-bottom: 10%;
+        &__dsc{
+            width: 40%;
+            text-align: left;
+            max-width: 500px;
+            &__cooltitle{
+                font-family: Architects-Daughter;
+                color: #BF6F6F;
+                font-size: 20px;
+                letter-spacing: 0.25px;
+                line-height: 30px;
+            }
+            &__title{
+                color: #D9E3EA;
+                font-size: 32px;
+                letter-spacing: -0.25px;
+                font-weight: 600;
+                line-height: 42px;
+            }
+            &__text{
+                color: #9BA9B4;
+                font-size: 20px;
+                letter-spacing: -0.25px;
+                line-height: 30px;
+            }
+            &__list{
+                list-style-position: inside;
+                list-style-image: url("/images/Path.svg");
+                color: #9BA9B4;
+                font-size: 20px;
+                letter-spacing: -0.25px;
+                line-height: 30px;
+                text-align: left;
+                margin:0px 30px 0px 0px;
+                padding: 0;
+            }
+        }
+        &__picture{
+            width: 50%;
+            height: 50%
+        }
+    }
+}

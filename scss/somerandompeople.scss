@@ -1,0 +1,47 @@
+.somerandompeople{
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+    border-spacing: 10px; 
+
+    &__container{
+        position: relative;
+    }
+    &__object{
+        display: table-cell;
+        text-align: left;
+        padding: 30px;
+        background-color:#25282C;
+        &__title{
+            font-size: 24px;
+            letter-spacing: -0.5px;
+            line-height: 34px;
+            color: #d9e3ea;
+            font-weight: bold;
+        }
+        &__text{
+            font-size: 18px;
+            letter-spacing: -0.25px;
+            line-height: 27px;
+            color: #9BA9B4;
+            margin: 0px 16px 16px 0px;
+            &__name{
+                padding-top: 30px;
+                &__name{
+                    color: #9BA9B4
+                }
+                &__job{
+                    color: #BF6F6F;
+                }
+                p{
+                    display:inline;
+                }
+            }
+        }
+        &__img{
+            width: 48px;
+            border-radius:50px;
+            margin-bottom:10px;
+        }
+    }
+}

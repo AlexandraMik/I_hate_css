@@ -1,0 +1,35 @@
+.features{
+    text-align: center;
+    margin-bottom: 50px;
+    &__container{
+        position: relative;
+        z-index: 20;
+    }
+    &__row {
+        position: relative;
+        display: flex;
+        padding-top: 20px;
+        align-items: center;
+        justify-content: space-between;
+        &__section{
+            &__title{
+                font-size: 24px;
+                letter-spacing: -0.5px;
+                line-height: 34px;
+                color: #d9e3ea;
+                font-weight: bold;
+                stroke: #0000; 
+            }
+            &__text{
+                font-size: 18px;
+                letter-spacing: -0.25px;
+                line-height: 27px;
+                color: #9BA9B4;
+                margin: 0px 16px 16px 0px;
+            }
+            &__img{
+                width: 64px;
+            }
+        }
+    }
+}

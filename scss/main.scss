@@ -1,0 +1,59 @@
+@import "_mixins";
+@import "fonts";
+
+
+body {
+    background-image: url(/images/Shape.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #151719;
+   }
+*,
+*::before,
+*::after {
+    font-family: Poppins;
+    line-height: 1;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+section {
+    position: relative;
+    z-index: 2;
+}
+.figure{
+    margin: 0 auto 16px;
+    width: fit-content;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 4px 12px;
+    border-radius: 50px;
+    background-color: #C6F6D5;
+    color: #36A269;
+}
+img {
+    width: 100%;
+}
+hr{
+    width:80%; 
+    margin: auto;
+    border-color:  #33363A;
+}
+[data-mask] {
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    transition: 0.3s background;
+}
